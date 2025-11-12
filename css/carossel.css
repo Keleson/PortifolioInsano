@@ -1,0 +1,41 @@
+.carrossel-container{
+    text-align: center;
+    margin: 30px auto;
+    max-width: 960px ;
+}
+
+.carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carrossel-imagens{
+    display: flex;
+    gap: 15px; 
+    overflow: hidden;
+}
+
+.carrossel-imagens img {
+    width: 300px;
+    height: 182px !important;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0 , 0.3);
+    flex-shrink: 0;
+}
+
+.carrossel-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.carrossel-btn :hover{
+    color: #000;
+    transform: scale(1.2);
+}

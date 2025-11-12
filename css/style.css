@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f9f9f9;
+    color: #333;
+    overflow-x: hidden;
+  }
+
+#dados 
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#dados img {
+    width: 200px;
+    
+}
+  h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .xd {
+    padding: 20px;
+    transition: margin-left 0.3s;
+  }
+  .content {
+    
+    /* padding: 20px; */
+    transition: margin-left 0.3s;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2c3e50;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ecf0f1;
+    display: block;
+    transition: 0.2s;
+  }
+  
+  .sidebar a:hover {
+    background-color: #34495e;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+  }
+  div.maingame{
+    min-height:calc( 100vh - 123px) ;
+    display
+  
+    : flex
+    ;
+        align-items: center;
+        justify-content: center;
+        background-color: #0000ff4f;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    border-radius: 5px;
+  }
+  
+  .openbtn:hover {
+    background-color: #1a252f;
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #34495e;
+    color: white;
+  }
+  
+  footer button:hover {
+    background-color: #1a252f;
+  }

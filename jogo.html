@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AbeeVenture</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel ="stylesheet" href="css/carossel.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<span class="openbtn" onclick="openNav()">☰ Menu</span>
+    
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="index.html">Home</a>
+
+  </div>
+  <main class="content">
+
+      <div class="maingame">
+          <!-- <section>
+              <canvas id = "canvas" width="900" height="700"></canvas>
+              <script src="abeeventure/script/classes.js"></script>
+              <script src="abeeventure/script/game.js"></script>
+            </section> -->
+            <iframe src="abeeventure/index.html" width="900" height="704" style="border:none;"></iframe>
+        </div>
+    </main>
+
+  <footer>
+    <p>&copy; 2025 Jonas Gabriel Gordiano Tomaz Pereira. Todos os direitos reservados.</p>
+    <button onclick="mudarFonte('Roboto')">Roboto</button>
+    <button onclick="mudarFonte('Lobster')">Lobster</button>
+    <button onclick="mudarFonte('Montserrat')">Montserrat</button>
+  </footer>
+   <script src="script/sidebaronly.js" ></script>
+  
+</body>

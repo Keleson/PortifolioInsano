@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículo - Jonas Gabriel</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel ="stylesheet" href="css/carossel.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <span class="openbtn" onclick="openNav()">☰ Menu</span>
+    
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#dados">Dados Pessoais</a>
+    <a href="#apresentacao">Apresentação</a>
+    <a href="#formacao">Formação</a>
+    <a href="#educacao">Educação Complementar</a>
+    <a href="#conhecimentos">Conhecimentos</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#idiomas">Idiomas</a>
+  </div>
+
+ 
+  <div class="xd">
+    <section id="dados">
+      <h1>Jonas Gabriel Gordiano Tomaz Pereira</h1>
+      <img src="imagem/perfil.jpeg" alt=" Foto de perfil de Jonas Gabriel" />
+      <p><strong>Email:</strong> jonasreserva2@gmail.com</p>
+      <p><strong>Telefone:</strong> (41) 99605-2415</p>
+    </section>
+
+    <section id="apresentacao">
+      <h2>Apresentação</h2>
+      <p>Estudo programação há mais de 4 anos, com diversos projetos pessoais e trabalhos em equipe que gerenciei. Pretendo seguir na área de desenvolvimento de jogos, pois gosto bastante e tenho afinidade com esse universo que marcou minha infância. Tenho boa capacidade de aprendizado e estou sempre buscando soluções criativas usando os conhecimentos adquiridos.</p>
+    </section>
+
+    <section id="formacao">
+      <h2>Formação Acadêmica</h2>
+      <p>Curso Médio Técnico em Programação de Jogos Digitais<br>Instituto Federal do Paraná – 2022 até o momento</p>
+    </section>
+
+    <section id="educacao">
+      <h2>Educação Complementar</h2>
+      <p>Curso de Inglês – 2025 até o momento</p>
+    </section>
+
+    <section id="conhecimentos">
+      <h2>Conhecimentos</h2>
+      <ul>
+        <li>Linguagens: C, C++, C#, JavaScript</li>
+        <li>HTML5, CSS</li>
+        <li>Ferramentas: Unity, Visual Studio, Code Blocks</li>
+        <li>Modelagem: Blender</li>
+        <li>Ilustração: Inkscape</li>
+        <li>Áudio: Fmod, Audacity, Nuendo</li>
+      </ul>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <p>Facilidade de aprendizagem, resolução de problemas, organização de projetos e apresentações.</p>
+    </section>
+
+    <section id="idiomas">
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Português – Nativo</li>
+        <li>Inglês – Intermediário (B1)</li>
+      </ul>
+    </section>
+  </div>
+
+  <div class = "carrossel-container"> 
+    <h2> Projetos em Imagens </h2>
+    <div class = "carrossel">
+      <button class = "carrossel-btn" onclick="mudarImagem(-1)"> &#10094; </button>
+      <div class="carrossel-imagens" id="carrosel-imagens"></div> 
+      <button class="carrossel-btn" onclick="mudarImagem(1)">&#10095;</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Jonas Gabriel Gordiano Tomaz Pereira. Todos os direitos reservados.</p>
+    <button onclick="mudarFonte('Roboto')">Roboto</button>
+    <button onclick="mudarFonte('Lobster')">Lobster</button>
+    <button onclick="mudarFonte('Montserrat')">Montserrat</button>
+  </footer>
+  <script src="script/siderbar.js" ></script>
+</body>
+</html>
